@@ -1,3 +1,4 @@
+//variables with names and details
 var isaac = {
     firstName: "Isaac",
     lastName: "Bazalaki",
@@ -10,13 +11,16 @@ var ed = {
     phoneNumber: "0772675756"
 };
 
+//variable with all  the  contacts and their details
 var contacts = [isaac, ed];
 
-function printPerson(person) {
+//lists the relevant details to be displayed
+function printPerson (person) {
     console.log(person.firstName + " " + person.lastName, "\n", person.phoneNumber);
 }
 
-var list = function () {
+//creates the list of names
+function list () {
     for (var i = 0; i < contacts.length; i++)
       printPerson(contacts[i]);
   }
