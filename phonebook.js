@@ -1,18 +1,16 @@
-var bob = {
-    firstName: "Bob",
-    lastName: "Jones",
-    phoneNumber: "(650) 777-7777",
-    email: "bob.jones@example.com"
+var isaac = {
+    firstName: "Isaac",
+    lastName: "Bazalaki",
+    phoneNumber: "0750762305"
 };
 
-var mary = {
-    firstName: "Mary",
-    lastName: "Johnson",
-    phoneNumber: "(650) 888-8888",
-    email: "mary.johnson@example.com"
+var ed = {
+    firstName: "Ed",
+    lastName: "Muwanguzi",
+    phoneNumber: "0772675756"
 };
 
-var contacts = [bob, mary];
+var contacts = [isaac, ed];
 
 function printPerson(person) {
     console.log(person.firstName + " " + person.lastName);
@@ -20,6 +18,6 @@ function printPerson(person) {
 
 var list = function () {
     for (var i = 0; i < contacts.length; i++)
-      printPerson(contacts[i]); // You need to pass in the person to print!
+      printPerson(contacts[i]);
   }
   list();
