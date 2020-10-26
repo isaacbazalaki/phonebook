@@ -13,7 +13,7 @@ var ed = {
 var contacts = [isaac, ed];
 
 function printPerson(person) {
-    console.log(person.firstName + " " + person.lastName);
+    console.log(person.firstName + " " + person.lastName, "\n", person.phoneNumber);
 }
 
 var list = function () {
