@@ -1,0 +1,19 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "command Line interface",
+  "main": "phonebook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacbazalaki/phonebook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacbazalaki/phonebook/issues"
+  },
+  "homepage": "https://github.com/isaacbazalaki/phonebook#readme"
+}
